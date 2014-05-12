@@ -1,0 +1,24 @@
+{
+    "development":{
+        "connector": [
+                {"id": "connector-server", "host": "192.168.6.1", "port": 3151, "clientPort": 3011, "frontend": true}
+        ],
+        "chess":[
+            {"id":"chess-server", "host":"192.168.6.1", "port":6051}
+        ],
+        "gate":[
+	     {"id": "gate-server", "host": "192.168.6.1", "clientPort": 3015, "frontend": true}
+	]
+    },
+    "production":{
+        "connector": [
+               {"id": "connector-server", "host": "192.168.6.1", "port": 3151, "clientPort": 3011, "frontend": true}
+        ],
+        "chess":[
+            {"id":"chess-server", "host":"192.168.6.1", "port":6051}
+        ],
+        "gate":[
+	     {"id": "gate-server", "host": "192.168.6.1", "clientPort": 3015, "frontend": true}
+	]
+    }
+}
